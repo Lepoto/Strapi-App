@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "course_name": {
+      "type": "string"
+    },
+    "course_duration": {
+      "type": "integer"
+    },
+    "faculty": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::faculty.faculty",
+      "inversedBy": "courses"
+    },
+    "course_description": {
+      "type": "richtext"
+    },
+    "admission_requirements": {
+      "type": "integer"
+    },
+    "entry_requirements": {
+      "type": "richtext"
+    }
+  }
+}
