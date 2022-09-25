@@ -29,16 +29,16 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "closing_date": {
       "type": "date"
     },
     "bursary_link": {
+      "type": "string"
+    },
+    "image": {
       "type": "string"
     }
   }

@@ -27,5 +27,8 @@ npm run build
 # or
 yarn build
 ```
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0dfc95a (Added JSON Field)

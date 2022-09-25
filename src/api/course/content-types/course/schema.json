@@ -30,8 +30,8 @@
     "admission_requirements": {
       "type": "integer"
     },
-    "entry_requirements": {
-      "type": "richtext"
+    "requirements": {
+      "type": "json"
     }
   }
 }
