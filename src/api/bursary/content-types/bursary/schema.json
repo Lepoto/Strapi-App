@@ -15,15 +15,6 @@
     "bursary_name": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
-    "bursary_field_study": {
-      "type": "richtext"
-    },
-    "bursary_requirements": {
-      "type": "richtext"
-    },
     "bursary_image": {
       "type": "media",
       "multiple": false,
@@ -38,8 +29,14 @@
     "bursary_link": {
       "type": "string"
     },
-    "image": {
-      "type": "string"
+    "requirements": {
+      "type": "text"
+    },
+    "field_study": {
+      "type": "text"
+    },
+    "bursary_description": {
+      "type": "text"
     }
   }
 }

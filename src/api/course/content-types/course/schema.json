@@ -24,14 +24,14 @@
       "target": "api::faculty.faculty",
       "inversedBy": "courses"
     },
-    "course_description": {
-      "type": "richtext"
-    },
     "admission_requirements": {
       "type": "integer"
     },
     "requirements": {
       "type": "json"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
