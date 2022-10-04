@@ -16,17 +16,6 @@
       "type": "string",
       "required": true
     },
-    "email": {
-      "type": "email"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "university": {
       "type": "relation",
       "relation": "manyToOne",
