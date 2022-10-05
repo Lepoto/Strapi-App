@@ -60,6 +60,31 @@
     },
     "phone_number": {
       "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    },
+    "header_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
