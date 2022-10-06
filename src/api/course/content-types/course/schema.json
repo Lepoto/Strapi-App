@@ -18,10 +18,10 @@
     "course_duration": {
       "type": "integer"
     },
-    "faculty": {
+    "university": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::faculty.faculty",
+      "target": "api::university.university",
       "inversedBy": "courses"
     },
     "admission_requirements": {

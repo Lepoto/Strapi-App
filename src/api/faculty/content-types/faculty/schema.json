@@ -21,12 +21,6 @@
       "relation": "manyToOne",
       "target": "api::university.university",
       "inversedBy": "faculties"
-    },
-    "courses": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::course.course",
-      "mappedBy": "faculty"
     }
   }
 }
